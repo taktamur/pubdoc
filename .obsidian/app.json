@@ -1,0 +1,7 @@
+{
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "images",
+  "newLinkFormat": "absolute",
+  "newFileFolderPath": "articles"
+}
