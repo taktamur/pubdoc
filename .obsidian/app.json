@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "attachmentFolderPath": "images",
   "newLinkFormat": "absolute",
-  "newFileFolderPath": "articles"
+  "newFileFolderPath": "articles",
+  "alwaysUpdateLinks": true
 }
