@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/b4bbe6384ecfcd60893f.md",
+                "file": "articles/2023-01-07_nerdfont_rictyfont.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/b4bbe6384ecfcd60893f.md",
+                "file": "articles/2023-01-07_nerdfont_rictyfont.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/b4bbe6384ecfcd60893f.md",
+                "file": "articles/2023-01-07_nerdfont_rictyfont.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/b4bbe6384ecfcd60893f.md"
+                "file": "articles/2023-01-07_nerdfont_rictyfont.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "965c8633b6ba6d60",
   "lastOpenFiles": [
+    "articles/b4bbe6384ecfcd60893f.md",
     "articles/obsidianで書いてみる - Google Chrome 2023-01-02 15.03.16.png",
     "articles/20201206.png",
     "articles/2023-01-02_obsidian.md",
-    "articles/2023-01-07.md",
+    "articles/2023-01-07_nerdfont_rictyfont.md",
     "articles/2023-01-02.md",
     "articles/21ce53d9de5a6d9b1528.md",
     "images/2023-01-02obsidian.png",

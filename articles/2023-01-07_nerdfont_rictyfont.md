@@ -6,7 +6,7 @@ topics: ["NerdFont","RictyFont","FontForge","Starship","Homebrew"]
 published: true
 ---
 # どんなエラーが出たのか？
- [Ricty に Nerd Font を合成する](https://shnsprk.com/entry/2022/03/28/090000) や [# Ricty DiminishedとNerd Fontsを合成する方法(Mac)](https://qiita.com/uhooi/items/dc9a9657f1706283753b) を見ながらフォントの合成をやろうとしたけど、うまく行かなかった。
+ [Ricty に Nerd Font を合成する](https://shnsprk.com/entry/2022/03/28/090000) や [Ricty DiminishedとNerd Fontsを合成する方法(Mac)](https://qiita.com/uhooi/items/dc9a9657f1706283753b) を見ながらフォントの合成をやろうとしたけど、うまく行かなかった。
 
 ```sh
 ❯ ./font-patcher --complete RictyDiminished-BoldOblique.ttf
@@ -58,7 +58,7 @@ Python 2.7.18
 ❯ python ./test.py
 Traceback (most recent call last):
   File "./test.py", line 1, in <module>
-    import fontforge                                 #Load the module
+    import fontforge    
 ImportError: No module named fontforge
 
 ~/tmp via 🐍 v2.7.18
@@ -69,7 +69,7 @@ Python 3.9.6
 ❯ python3 ./test.py
 Traceback (most recent call last):
   File "/Users/tak/tmp/./test.py", line 1, in <module>
-    import fontforge                                 #Load the module
+    import fontforge    
 ModuleNotFoundError: No module named 'fontforge'
 
 ~/tmp via 🐍 v2.7.18
@@ -103,5 +103,7 @@ Warning: Treating fontforge as a formula. For the cask, use homebrew/cask/fontfo
 /usr/local/Cellar/fontforge/20230101/lib/python3.11/site-packages/psMat.so
 
 ```
-fontoforge.soやpsMat.soというのが、pythonのbridgeというやつだろうか。
+fontforge.soやpsMat.soというのが、pythonのbridgeというやつだろうか。
 
+なのでhomebrewでFontForgeをインストールした時に、依存関係で一緒に入るPythonを使えば、エラーが出ることが無い。
+また、別のPythonバージョンでFontForgeを動かす場合には、この辺のファイルを用意すれば良さそう。
